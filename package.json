@@ -1,0 +1,20 @@
+{
+  "name": "bucketlistlab",
+  "version": "1.0.0",
+  "description": "Create an application to make a 'bucket list' of countries you want to visit:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": " webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0",
+    "nodemon": "^1.13.3",
+    "webpack": "^3.10.0"
+  }
+}
